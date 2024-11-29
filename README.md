@@ -1,29 +1,23 @@
-# -------------------------------
-# Installation:
-# install Python 3.10+ on your system, restart system
-# Example here: Windows 11
+EV Charging Station Demand Analysis in Berlin
 
-# -------------------------------
-# Installation:
-c:
-cd C:\(...)\src
-python -m venv .venv
-.venv\Scripts\activate.bat
-pip install -r requirements.txt
-pip install spyder
+**Overview**
+This project analyzes the distribution of electric vehicle (EV) charging stations and population density across Berlin's postal codes. Using geospatial visualization, it identifies potential areas needing additional charging infrastructure. The project is built with Streamlit for interactivity and data visualization.
 
-cd C:\(...)\src
-
-# -------------------------------
-# Launch:
-c:
-cd C:\(...)\src
-.venv\Scripts\activate.bat
-spyder
-
-# jupyter-notebook
+**Key Features**
+**Interactive heatmaps:** Visualize EV charging station density and population distribution.
+**Data-driven insights:** Identify underserved areas for potential infrastructure expansion.
+**Streamlit app:** User-friendly interface for analysis and exploration.
 
 
-# -------------------------------
-# Start Streamlit App:
-streamlit run main.py
+**Technologies Used**
+Python: Core programming language.
+Pandas & Geopandas: Data manipulation and geospatial analysis.
+Streamlit: Web application framework.
+Matplotlib & Plotly: Visualization tools.
+OpenStreetMap: Basemap and geospatial data.
+
+**Installation Process**
+
+1) Clone the repository: git clone https://github.com/yourusername/ev-charging-analysis.git
+2) Install the Dependancies: pip install -r requirements.txt
+3) Run the application: streamlit run app.py
