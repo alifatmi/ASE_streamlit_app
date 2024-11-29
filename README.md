@@ -1,6 +1,6 @@
 EV Charging Station Demand Analysis in Berlin
 
-**Overview**
+**Overview**:
 This project analyzes the distribution of electric vehicle (EV) charging stations and population density across Berlin's postal codes. Using geospatial visualization, it identifies potential areas needing additional charging infrastructure. The project is built with Streamlit for interactivity and data visualization.
 
 **Key Features**
